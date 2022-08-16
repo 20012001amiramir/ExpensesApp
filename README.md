@@ -13,7 +13,7 @@ App to control your expenses.
 
 ![Screenshot_1](https://user-images.githubusercontent.com/86295320/184503989-aecfe652-5bdf-47ed-ae81-cbf4429c8e5f.jpg)
 ![Screenshot_2](https://user-images.githubusercontent.com/86295320/184504010-e7c83cf7-ce5b-404e-be15-5bb9005d43c7.jpg)
-![Screenshot_3](https://user-images.githubusercontent.com/86295320/184504027-0103fbc2-5ea9-407a-a791-a43de198867e.jpg)
+![Screenshot_3](https://user-images.githubusercontent.com/86295320/184993824-07c3678c-e972-44b4-9621-5681fdd7f262.jpg)
 
 ## App diagram:
 

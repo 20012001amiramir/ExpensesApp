@@ -29,6 +29,7 @@ class AddFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         //
+        mainActivity.binding.bottomNav.visibility = View.INVISIBLE
         binding.addExpenseBtn.setOnClickListener {
             val sum = binding.editExpense.text.toString().toInt()
             val rbId = binding.radioGroup.checkedRadioButtonId
@@ -44,6 +45,7 @@ class AddFragment : Fragment() {
             vm.insertExpense(sum, category)
             Navigation.findNavController(view).navigate(R.id.action_addFragment_to_expensesFragment)
             mainActivity.binding.tvTop.text = "Your expenses"
+            mainActivity.binding.bottomNav.visibility = View.VISIBLE
         }
     }
 }
